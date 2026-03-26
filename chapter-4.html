@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chapter 4: Launch Day — The Founder's Journey</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;0,900;1,700&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/animations.css">
+</head>
+<body>
+
+  <div class="reading-progress" id="readingProgress"></div>
+
+  <header class="site-header">
+    <div class="nav-inner">
+      <a href="index.html" class="nav-logo">The Founder's Journey</a>
+      <nav aria-label="Chapter navigation">
+        <ul class="nav-links">
+          <li><a href="chapter-1.html" class="nav-link">Ch.1 Problem</a></li>
+          <li><a href="chapter-2.html" class="nav-link">Ch.2 Discovery</a></li>
+          <li><a href="chapter-3.html" class="nav-link">Ch.3 Model</a></li>
+          <li><a href="chapter-4.html" class="nav-link active">Ch.4 Launch</a></li>
+        </ul>
+      </nav>
+      <a href="index.html" class="btn btn-secondary btn-sm">← Story Hub</a>
+    </div>
+  </header>
+
+  <!-- CHAPTER HERO -->
+  <section class="chapter-hero ch4">
+    <div class="container">
+      <span class="chapter-hero-eyebrow">Chapter 04 · Go-to-Market Strategy</span>
+      <h1>Launch Day</h1>
+      <p class="chapter-hero-quote">"You can have the best product in the world. It means nothing if the right people never hear about it." — Alex's journal, Week 14</p>
+    </div>
+  </section>
+
+  <!-- STORY SCENE 1: Picking a Lane -->
+  <section class="story-scene">
+    <div class="container">
+      <div class="story-prose">
+        <span class="story-date">February 3rd, Video Call with Diana</span>
+        <p>Alex had 40 paying customers. Diana opened the session with: "It's time to stop growing by accident." Alex laughed, knowing exactly what Diana meant. Ninety percent of her signups had come from two academic Twitter posts that went semi-viral in PhD communities. She hadn't planned it. Someone with 12,000 followers had retweeted her screenshot and said "this is exactly what we've needed."</p>
+        <p>"That's community-led growth," Diana said, pulling up a whiteboard. She drew four boxes: PLG, SLG, MLG, CLG. "You stumbled into CLG. Now let's be intentional about it." She walked Alex through the math. $12 per month was too cheap for a sales team, as the ACV didn't support a rep's quota. It was too cheap for heavy paid ads, as the CAC would eat the margin. But it was perfect for organic, community-driven growth, where CAC was low and trust was the currency.</p>
+        <p>"So community-led?" Alex asked. Diana nodded. "And product-led. Free tier with a 30-paper limit. Upgrade when they feel the pain of hitting that limit." Alex opened her laptop and started sketching a feature flag system. She felt a clarity she hadn't had since the library two months ago.</p>
+        <div class="story-quote">
+          "The best GTM motion isn't chosen. It's earned. The market tells you how it wants to buy."
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONCEPT BLOCK: GTM Motion Types -->
+  <section class="section-sm" style="background: var(--color-bg);">
+    <div class="container prose">
+      <div class="concept-block ch4">
+        <span class="concept-icon">🚀</span>
+        <h3 class="concept-title">The Four GTM Motions</h3>
+        <div class="concept-body">
+          <p>Your go-to-market motion is the primary mechanism through which you acquire, convert, and expand customers. The right motion is determined by your price point, product complexity, and customer profile, not by what worked for another company.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section-sm" style="background: var(--color-bg);">
+    <div class="container">
+      <div class="four-grid">
+        <div class="motion-card">
+          <span class="motion-card-icon">📦</span>
+          <div class="motion-card-title">Product-Led Growth (PLG)</div>
+          <p class="motion-card-desc">The product itself drives acquisition, conversion, and expansion. Users discover, try, and adopt with minimal friction. Freemium → viral loops → upgrade triggers.</p>
+          <p class="motion-card-examples"><strong>Examples:</strong> Slack, Figma, Dropbox, Notion, Canva</p>
+          <div class="motion-tags">
+            <span class="motion-tag">Freemium</span>
+            <span class="motion-tag">$0–$100/mo</span>
+            <span class="motion-tag">Wide appeal</span>
+          </div>
+        </div>
+        <div class="motion-card">
+          <span class="motion-card-icon">🤝</span>
+          <div class="motion-card-title">Sales-Led Growth (SLG)</div>
+          <p class="motion-card-desc">A dedicated sales team drives acquisition through direct outreach, relationship-building, and consultative selling. SDR → AE → demo → contract.</p>
+          <p class="motion-card-examples"><strong>Examples:</strong> Salesforce, HubSpot Enterprise, Workday</p>
+          <div class="motion-tags">
+            <span class="motion-tag">Enterprise</span>
+            <span class="motion-tag">$50K+ ACV</span>
+            <span class="motion-tag">Long cycle</span>
+          </div>
+        </div>
+        <div class="motion-card">
+          <span class="motion-card-icon">📢</span>
+          <div class="motion-card-title">Marketing-Led Growth (MLG)</div>
+          <p class="motion-card-desc">Marketing drives awareness and demand generation; the sales team converts inbound leads. Content → SEO → inbound leads → conversion.</p>
+          <p class="motion-card-examples"><strong>Examples:</strong> HubSpot, Drift, Marketo, Adobe</p>
+          <div class="motion-tags">
+            <span class="motion-tag">Mid-market</span>
+            <span class="motion-tag">$1K–$50K</span>
+            <span class="motion-tag">Content-driven</span>
+          </div>
+        </div>
+        <div class="motion-card">
+          <span class="motion-card-icon">🌐</span>
+          <div class="motion-card-title">Community-Led Growth (CLG)</div>
+          <p class="motion-card-desc">A community of users and advocates drives word-of-mouth and organic adoption. Community → network effects → product adoption.</p>
+          <p class="motion-card-examples"><strong>Examples:</strong> Twilio, MongoDB, dbt, Discord, React</p>
+          <div class="motion-tags">
+            <span class="motion-tag">Developer tools</span>
+            <span class="motion-tag">Niche B2B</span>
+            <span class="motion-tag">Open source</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- STORY SCENE 2: Who Is Lumio For? -->
+  <section class="story-scene">
+    <div class="container">
+      <div class="story-prose">
+        <span class="story-date">February 10th, Working Session</span>
+        <p>Alex tried to write her first LinkedIn ad. She typed "Lumio is for researchers who..." and stared at the cursor for twenty minutes. She had a classic founder problem: she knew her product so well that she'd forgotten how to talk about it to someone who didn't.</p>
+        <p>She called Diana. "You're targeting 'researchers,'" Diana said immediately. "That's 15 million people. WHO is your ideal customer, specifically?" Alex started to answer, then stopped. She'd been avoiding this question because narrowing felt like losing potential customers. Diana had a word for this: <em>cowardice</em>.</p>
+        <p>Alex pulled up her spreadsheet of 40 paying customers. She filtered by three criteria: upgraded within 48 hours of signing up, churned at 0%, gave unprompted written feedback. There were 8 of them. She ran informal interviews with 5. They were almost identical: STEM PhD students in years 2–4, at research-intensive universities, who had recently written or were currently writing their first major literature review, and who were deeply dissatisfied with how Zotero handled their thinking, not their filing.</p>
+        <p>She wrote one sentence on a sticky note and put it above her monitor: <em>"2nd–4th year STEM PhD students writing their first major lit review."</em> She never again wrote a piece of copy for "researchers."</p>
+        <div class="story-quote">
+          "Targeting everyone means writing for no one. Narrow your ICP until it feels uncomfortable, then narrow it a little more."
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FRAMEWORK CARD: ICP -->
+  <section class="section-sm" style="background: var(--color-bg);">
+    <div class="container prose">
+      <div class="framework-card">
+        <span class="framework-label">Framework · ICP Development</span>
+        <h3 class="framework-title">Lumio's Ideal Customer Profile</h3>
+        <p style="color: var(--color-text-muted); margin-bottom: 24px; font-size: 0.9rem;">Built from the 8 highest-retention, highest-NPS customers, not from imagination. ICPs are discovered, not invented.</p>
+
+        <div class="icp-table">
+          <div class="icp-row">
+            <div class="icp-dimension">Role</div>
+            <div class="icp-value">PhD student, 2nd–4th year</div>
+          </div>
+          <div class="icp-row">
+            <div class="icp-dimension">Field</div>
+            <div class="icp-value">STEM — biology, chemistry, materials science, computer science</div>
+          </div>
+          <div class="icp-row">
+            <div class="icp-dimension">Institution</div>
+            <div class="icp-value">R1 research university (200+ faculty researchers, active publication culture)</div>
+          </div>
+          <div class="icp-row">
+            <div class="icp-dimension">Trigger Event</div>
+            <div class="icp-value">Writing first major literature review (50+ papers in scope)</div>
+          </div>
+          <div class="icp-row">
+            <div class="icp-dimension">Current Tools</div>
+            <div class="icp-value">Zotero + Google Scholar + messy Downloads folder + "notes_FINAL_v3.docx"</div>
+          </div>
+          <div class="icp-row">
+            <div class="icp-dimension">Switching Trigger</div>
+            <div class="icp-value">Lost hours rebuilding context for a paper they definitely already read and annotated</div>
+          </div>
+          <div class="icp-row">
+            <div class="icp-dimension">Budget</div>
+            <div class="icp-value">Personal: $10–20/month comfortable · Lab budget: potential for team tier</div>
+          </div>
+          <div class="icp-row">
+            <div class="icp-dimension">Watering Holes</div>
+            <div class="icp-value">Academic Twitter, r/GradSchool, r/PhD, PhD Discord servers, university Slack workspaces</div>
+          </div>
+        </div>
+
+        <p style="font-size: 0.875rem; color: var(--color-text-muted); margin-top: 20px;">Build your ICP from your best customers (highest retention, highest NPS, lowest CAC), not from hypothetical personas. Analyze what they have in common: industry, role, trigger event, watering holes. Then evolve the ICP quarterly as you win more deals.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- STORY SCENE 3: The Positioning Statement -->
+  <section class="story-scene">
+    <div class="container">
+      <div class="story-prose">
+        <span class="story-date">February 17th, Home Office</span>
+        <p>Alex had spent a week studying positioning frameworks. She sat down to write her statement, having learned the structure from her research: for [customer] who [problem], [product] is a [category] that [differentiator]. First attempt took 20 minutes and produced: "For researchers who manage lots of papers, Lumio is a tool that helps you remember what you read." Diana's feedback was three words: "Boring. Generic. Redo."</p>
+        <p>Second attempt. Alex went back to the interviews. She thought about Marcus and the phrase "lost a day." She thought about what her five power users said they were actually using Lumio for. Third attempt, forty minutes in: <em>"For PhD students who spend more time remembering what they read than actually reading, Lumio is an AI research memory that resurfaces your paper context automatically, so you can focus on thinking, not retrieving."</em></p>
+        <p>She sent it to Diana at 11pm with the subject line "third attempt." Diana replied at 11:07pm: "That's it." Alex stared at the email for a moment. Then she screamed into a pillow for the second time in this story.</p>
+        <div class="story-quote">
+          "Good positioning describes a better world. Great positioning names the exact pain the customer is already feeling."
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONCEPT BLOCK: Positioning Framework -->
+  <section class="section-sm" style="background: var(--color-bg);">
+    <div class="container prose">
+      <div class="concept-block ch4">
+        <span class="concept-icon">🎯</span>
+        <h3 class="concept-title">The 5 Components of Strong Positioning</h3>
+        <div class="concept-body">
+          <p>Positioning is a deliberate, structured discipline, not a tagline exercise. Most founders write positioning last, when they should write it first. Strong positioning comes from deeply understanding five interconnected components, each of which shapes how customers perceive your product before they ever try it:</p>
+          <ul>
+            <li><strong>1. Competitive alternatives:</strong> What customers compare you to (not your stated competitors, but what they'd do without you). Lumio's: Zotero + manual Google Docs notes + browser bookmarks.</li>
+            <li><strong>2. Unique attributes:</strong> What you have that alternatives don't. Lumio's: AI-powered reading memory, automatic cross-paper context graphs.</li>
+            <li><strong>3. Value:</strong> The benefit those attributes enable. Lumio's: Zero time lost re-establishing context with previously read papers.</li>
+            <li><strong>4. Target customers:</strong> Who cares most about that specific value. Lumio's: PhD students writing literature reviews.</li>
+            <li><strong>5. Market category:</strong> The frame you place yourself in (determines who you get compared to). Lumio's: "AI research memory," not "reference manager," which anchors to old tools.</li>
+          </ul>
+          <p>The category choice is the most powerful and most overlooked lever. "AI research memory" creates a new mental category where Lumio is the default leader. "Reference manager" puts Lumio in a category dominated by Zotero with 20 years of brand equity.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FRAMEWORK CARD: Positioning Statement -->
+  <section class="section-sm" style="background: var(--color-surface-2);">
+    <div class="container prose">
+      <div class="framework-card">
+        <span class="framework-label">Framework · Positioning</span>
+        <h3 class="framework-title">The Positioning Statement</h3>
+        <p style="color: var(--color-text-muted); margin-bottom: 24px; font-size: 0.9rem;">This classic positioning template forces precision. Every blank matters, as vague answers signal vague thinking. Lumio's final version after three drafts:</p>
+
+        <div class="positioning-statement">
+          For <span class="positioning-blank">PhD students writing literature reviews</span> who <span class="positioning-blank">spend more time remembering what they read than synthesizing it</span>, <strong>Lumio</strong> is an <span class="positioning-blank">AI research memory</span> that <span class="positioning-blank">resurfaces exactly what you've read, when you need it</span>. Unlike <span class="positioning-blank">Zotero and manual note-taking</span>, we <span class="positioning-blank">eliminate the context-rebuilding tax that costs researchers hours per week</span>.
+        </div>
+
+        <p style="font-size: 0.875rem; color: var(--color-text-muted);">The message-market fit test: Show your homepage to a stranger for 5 seconds. Ask: what does this do, who is it for, and why is it different? If they can't answer all three, your positioning needs more work.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- STORY SCENE 4: Launch Week -->
+  <section class="story-scene">
+    <div class="container">
+      <div class="story-prose">
+        <span class="story-date">March 1st, Product Hunt Launch Day</span>
+        <p>Alex had scheduled the Product Hunt launch for 12:01 AM. She couldn't sleep. She lay in bed refreshing the Product Hunt page on her phone until 2am, watching Lumio climb from #23 to #11 to #7. She fell asleep somewhere around #6 and woke up at 6am to find it had peaked at #4 Product of the Day.</p>
+        <p>She posted on academic Twitter. A cognitive science professor with 12,000 followers retweeted her with a single word: "Finally." The thread started accumulating comments from PhD students sharing screenshots of their own chaotic paper management systems. The r/GradSchool post got 340 upvotes and 80 comments, half of which were people tagging their labmates.</p>
+        <p>By end of day: 312 new signups, 14 upgrades to paid in the first 24 hours. She built a quick funnel analysis at midnight: Product Hunt → 4% to email signup. Hacker News → 9%. Twitter → 18%. The community channel was destroying everything else. She made a decision immediately: double down on academic Twitter, join every PhD Discord she could find, DM the moderators of r/GradSchool about a partnership. She sent Diana a launch retrospective document at 1am. Diana replied with a single line: "Now you know where to fish."</p>
+        <div class="story-quote">
+          "Launch data is a gift. Most founders run one launch and declare success or failure. The ones who succeed run ten."
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONCEPT BLOCK: Channel Strategy -->
+  <section class="section-sm" style="background: var(--color-bg);">
+    <div class="container prose">
+      <div class="concept-block ch4">
+        <span class="concept-icon">📡</span>
+        <h3 class="concept-title">Choosing Your Channels</h3>
+        <div class="concept-body">
+          <p>Channels fall into four categories: <strong>Owned</strong> (website, email list, organic social), <strong>Paid</strong> (ads, sponsorships), <strong>Earned</strong> (PR, reviews, word-of-mouth), and <strong>Partnership</strong> (integrations, resellers, co-marketing).</p>
+          <p>Evaluate each channel on six factors before investing:</p>
+          <table class="concept-table">
+            <thead>
+              <tr><th>Factor</th><th>Description</th><th>Lumio's Winner</th></tr>
+            </thead>
+            <tbody>
+              <tr><td><strong>Reach</strong></td><td>How many target customers can you reach?</td><td>Academic Twitter: High ✓</td></tr>
+              <tr><td><strong>Cost</strong></td><td>What does customer acquisition cost through this channel?</td><td>Community: Near-zero ✓</td></tr>
+              <tr><td><strong>Credibility</strong></td><td>How trustworthy is this channel for your audience?</td><td>Peer-to-peer: Very High ✓</td></tr>
+              <tr><td><strong>Conversion</strong></td><td>What % of visitors become customers?</td><td>Twitter: 18% ✓</td></tr>
+              <tr><td><strong>Scalability</strong></td><td>Can you increase volume cost-effectively?</td><td>SEO + content: High</td></tr>
+              <tr><td><strong>Control</strong></td><td>How much control over timing and messaging?</td><td>Email list: Full ✓</td></tr>
+            </tbody>
+          </table>
+          <p style="margin-top: 16px;"><strong>Key principle:</strong> Pick 1–2 channels and validate before diversifying. Over-investing in expensive channels without testing is one of the most common and costly GTM mistakes. Alex's $50 smoke test taught her more about channels than $5,000 in ads ever would have.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOUNDER'S EXERCISE: Write Positioning Statement -->
+  <section class="section-sm" style="background: var(--color-surface-2);">
+    <div class="container prose">
+      <div class="exercise-box">
+        <div class="exercise-header">
+          <span class="exercise-icon">✏️</span>
+          <div class="exercise-header-text">
+            <h3 class="exercise-title">Write Your Positioning Statement</h3>
+            <p class="exercise-subtitle">Use the positioning template below. Write three drafts. The first will be terrible. That's normal and expected. The third will be close to the truth.</p>
+          </div>
+        </div>
+        <div class="exercise-form">
+          <div class="form-group">
+            <label class="form-label">Target Customer: Who specifically?</label>
+            <textarea class="form-input form-textarea" placeholder="e.g., PhD students in their 2nd–4th year writing their first major literature review..."></textarea>
+          </div>
+          <div class="form-group">
+            <label class="form-label">Their Core Problem: What's the job they can't get done?</label>
+            <textarea class="form-input form-textarea" placeholder="e.g., spend more time re-reading papers they've already annotated than synthesizing new ideas..."></textarea>
+          </div>
+          <div class="form-group">
+            <label class="form-label">Market Category: What category are you in? (Create your own, don't copy competitors)</label>
+            <span class="form-hint">The category determines who you get compared to. "AI research memory" beats "reference manager."</span>
+            <input class="form-input" type="text" placeholder="e.g., AI research memory (not 'reference manager' or 'note-taking tool')">
+          </div>
+          <div class="form-group">
+            <label class="form-label">Key Differentiator: What does your product do that alternatives don't?</label>
+            <textarea class="form-input form-textarea" placeholder="e.g., resurfaces previously read paper context automatically, so you never lose time rebuilding understanding..."></textarea>
+          </div>
+          <div class="form-group">
+            <label class="form-label">Main Alternative: What would customers do without you?</label>
+            <input class="form-input" type="text" placeholder="e.g., Zotero + manual Google Docs notes + browser bookmarks...">
+          </div>
+          <div class="form-group">
+            <label class="form-label">Proof Point: Why should they believe you?</label>
+            <textarea class="form-input form-textarea" placeholder="e.g., eliminates the context-rebuilding tax that costs researchers 30–60 minutes per reading session..."></textarea>
+          </div>
+        </div>
+        <div class="exercise-callout">
+          <strong>Your template:</strong> "For [target customer] who [their problem], [product name] is a [market category] that [key differentiator]. Unlike [alternative], we [proof point]."
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- KEY TAKEAWAYS -->
+  <section class="section-sm" style="background: var(--color-bg);">
+    <div class="container prose">
+      <div class="takeaways-box ch4">
+        <h3 class="takeaways-title">Chapter 4 Takeaways</h3>
+        <div class="takeaway-item">
+          <span class="takeaway-num">1</span>
+          <p class="takeaway-text"><strong>Match your GTM motion to your price point.</strong> A $12/month product can't support a sales team. A $50K/year enterprise deal can't scale through community posts. The math determines your motion, not what worked for another company.</p>
+        </div>
+        <div class="takeaway-item">
+          <span class="takeaway-num">2</span>
+          <p class="takeaway-text"><strong>ICP before messaging.</strong> You cannot write good positioning until you know exactly who you're writing for. Start with your 5–10 best customers, find the pattern, and write for that one profile. Everything else is targeting by accident.</p>
+        </div>
+        <div class="takeaway-item">
+          <span class="takeaway-num">3</span>
+          <p class="takeaway-text"><strong>Launch data is a compass, not a verdict.</strong> Your first launch will be imperfect. Treat it as an experiment. Look at which channels actually convert, double down there, and ignore the vanity metrics. The founders who win aren't the ones who launch best. They're the ones who learn fastest.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- EPILOGUE -->
+  <section class="epilogue">
+    <div class="container">
+      <h2>Three Months Later</h2>
+      <div class="epilogue-intro">
+        <p>Lumio crossed 400 paying users in June. Monthly churn dropped from 8% to 2.4% after Alex rebuilt onboarding entirely around the core "context restoration" job, the insight that came from that Sunday afternoon on her kitchen floor surrounded by index cards.</p>
+        <p>She gave a talk at a PhD student symposium about research workflows. Forty new signups came from that one event. She realized her earliest adopters weren't just customers. They were her best salespeople, because they lived the problem and understood exactly how to describe it to their labmates.</p>
+        <p>She still has the soggy notebook from the university library. The page where she wrote "Is this a me problem or an everyone problem?" is framed above her desk. The answer was: it's everyone's problem. She just needed to ask 20 strangers to confirm it.</p>
+      </div>
+
+      <div class="epilogue-stats">
+        <div class="epilogue-stat">
+          <span class="epilogue-stat-num">400</span>
+          <span class="epilogue-stat-label">Paying Users</span>
+        </div>
+        <div class="epilogue-stat">
+          <span class="epilogue-stat-num">$6.2K</span>
+          <span class="epilogue-stat-label">Monthly Recurring Revenue</span>
+        </div>
+        <div class="epilogue-stat">
+          <span class="epilogue-stat-num">2.4%</span>
+          <span class="epilogue-stat-label">Monthly Churn Rate</span>
+        </div>
+      </div>
+
+      <p class="epilogue-closing">The journey from hunch to business took 7 months. The real education wasn't in a classroom. It was in 20 interviews, one smoke test, a coffee-stained napkin, and a Product Hunt launch that almost didn't happen.</p>
+
+      <div class="epilogue-ctas">
+        <a href="index.html" class="btn btn-outline-light">← Back to Story Hub</a>
+        <a href="chapter-1.html" class="btn btn-ghost" style="color: rgba(232,227,217,0.6);">Read Again →</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- CHAPTER NAVIGATION -->
+  <section class="section-sm" style="background: var(--color-surface-2);">
+    <div class="container prose">
+      <div class="chapter-nav">
+        <a href="chapter-3.html" class="chapter-prev">
+          <span class="chapter-nav-label">Chapter 03</span>
+          <span class="chapter-nav-title">← The Business Blueprint</span>
+        </a>
+        <a href="index.html" class="chapter-next">
+          <span class="chapter-nav-label">Story Hub</span>
+          <span class="chapter-nav-title">Back to the Beginning ↑</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-inner">
+        <div>
+          <a href="index.html" class="footer-logo">The Founder's Journey</a>
+          <p class="footer-tagline">Entrepreneurship education through digital storytelling.</p>
+        </div>
+        <div class="footer-links">
+          <a href="chapter-1.html" class="footer-link">Ch.1 — Problem</a>
+          <a href="chapter-2.html" class="footer-link">Ch.2 — Discovery</a>
+          <a href="chapter-3.html" class="footer-link">Ch.3 — Model</a>
+          <a href="chapter-4.html" class="footer-link">Ch.4 — Launch</a>
+        </div>
+      </div>
+      <p class="footer-attribution">Built from synthesized research on go-to-market strategy, positioning theory, channel selection, and growth motions, compiled from real-world startup practice and entrepreneurship education programs.</p>
+    </div>
+  </footer>
+
+  <script src="js/app.js"></script>
+</body>
+</html>

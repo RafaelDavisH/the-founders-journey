@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chapter 1: The Problem Hunch — The Founder's Journey</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;0,900;1,700&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/animations.css">
+</head>
+<body>
+
+  <div class="reading-progress" id="readingProgress"></div>
+
+  <!-- SITE HEADER -->
+  <header class="site-header">
+    <div class="nav-inner">
+      <a href="index.html" class="nav-logo">The Founder's Journey</a>
+      <nav aria-label="Chapter navigation">
+        <ul class="nav-links">
+          <li><a href="chapter-1.html" class="nav-link active">Ch.1 Problem</a></li>
+          <li><a href="chapter-2.html" class="nav-link">Ch.2 Discovery</a></li>
+          <li><a href="chapter-3.html" class="nav-link">Ch.3 Model</a></li>
+          <li><a href="chapter-4.html" class="nav-link">Ch.4 Launch</a></li>
+        </ul>
+      </nav>
+      <a href="chapter-2.html" class="btn btn-primary btn-sm">Next Chapter →</a>
+    </div>
+  </header>
+
+  <!-- CHAPTER HERO -->
+  <section class="chapter-hero ch1">
+    <div class="container">
+      <span class="chapter-hero-eyebrow">Chapter 01 · Problem &amp; Market Validation</span>
+      <h1>The Problem Hunch</h1>
+      <p class="chapter-hero-quote">"I've been reorganizing the same pile of PDFs for three years. At some point you stop thinking it's just you." — Alex's journal, Day 1</p>
+    </div>
+  </section>
+
+  <!-- STORY SCENE 1: The Hunch -->
+  <section class="story-scene">
+    <div class="container">
+      <div class="story-prose">
+        <span class="story-date">October 14th, University Library, 11:47 PM</span>
+        <p>Alex had 47 browser tabs open. Three monitors. Sticky notes covering her secondary screen like a patchwork quilt of academic anxiety. Somewhere in this chaos lived the paper she needed, the one about cross-modal attention and working memory that she'd highlighted and annotated and definitely-read-three-months-ago. She'd just spent two hours looking for it.</p>
+        <p>She found it, finally, inside a folder named "Papers_FINAL_v3_real_ACTUAL." She opened it. The highlighting was there. The annotations were good. Past-Alex had done excellent work. Present-Alex had zero memory of any of it.</p>
+        <p>She opened a blank notebook and wrote: <em>"What if there was a tool that just... remembered?"</em></p>
+        <p>She stared at that sentence for a long time. Then, below it, she wrote a second sentence that would change the next two years of her life: <em>"Is this a me problem or an everyone problem?"</em></p>
+        <div class="story-quote">
+          "The best startup ideas feel like secrets, things you know that most people don't yet believe. My secret was scribbled in the margin of a soggy notebook at midnight."
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONCEPT BLOCK: Problem Validation -->
+  <section class="section-sm" style="background: var(--color-bg);">
+    <div class="container prose">
+      <div class="concept-block ch1">
+        <span class="concept-icon">🔍</span>
+        <h3 class="concept-title">What Is Problem Validation?</h3>
+        <div class="concept-body">
+          <p><strong>Problem validation</strong> is the process of confirming, before significant investment, that a real, painful problem exists for a sizable group of people willing to pay for a solution. Most startups fail not because they build poorly, but because they build something nobody wants.</p>
+          <p>There are two related concepts founders often conflate:</p>
+          <ul>
+            <li><strong>Problem Validation</strong>: Confirming the problem is real, frequent, and painful enough to motivate action.</li>
+            <li><strong>Market Validation</strong>: Confirming that enough people with this problem exist and are reachable, i.e., a viable market.</li>
+          </ul>
+          <p>The key question experienced founders ask isn't "would you use this?" Instead, it's "how do you handle this problem today?" Past behavior reveals real pain far better than hypothetical intent. Customers can't accurately predict future behavior, but they can describe what they actually did last week.</p>
+          <p>Alex didn't know any of this yet. She just knew she had a hunch, and she wanted to know if it was shared.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- STORY SCENE 2: Googling Competitors -->
+  <section class="story-scene">
+    <div class="container">
+      <div class="story-prose">
+        <span class="story-date">October 15th, Alex's Apartment, 2:13 AM</span>
+        <p>Alex googled "research paper management software." The results were extensive: Zotero, Mendeley, Papers, ReadCube, Paperpile, Citavi. She spent 20 minutes with each. Zotero felt like software that had been lovingly maintained since 2009: functional, beloved by academics, utterly without visual ambition. Mendeley crashed twice. Papers was genuinely beautiful, but its organization model didn't match how she actually thought about research. It wanted her to file papers; she wanted to <em>connect</em> them.</p>
+        <p>She opened G2 and Capterra. She filtered by "research management software" and sorted by lowest rating. The one-star reviews were illuminating. Three different users, different tools, almost the same complaint: "Doesn't handle cross-paper connections." One wrote: "I can find individual papers, but I can't see how they relate to each other. This is literally the only thing I need."</p>
+        <p>Alex felt a jolt, the specific, electric kind that comes from finding your hypothesis in the wild. She wrote in her notebook: <em>"Competitors exist = demand exists. But they're leaving something on the table."</em></p>
+        <div class="story-quote">
+          "Competitors aren't the enemy. They're proof the market is real."
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FRAMEWORK CARD: TAM/SAM/SOM -->
+  <section class="section-sm" style="background: var(--color-bg);">
+    <div class="container prose">
+      <div class="framework-card">
+        <span class="framework-label">Framework · Market Sizing</span>
+        <h3 class="framework-title">TAM / SAM / SOM: How Big Is This?</h3>
+
+        <div class="framework-diagram">
+          <div class="tam-diagram">
+            <div class="tam-circle tam-tam">
+              <span class="tam-label">TAM</span>
+              <span class="tam-value">$47B globally</span>
+            </div>
+            <div class="tam-circle tam-sam">
+              <span class="tam-label">SAM</span>
+              <span class="tam-value">$3.2B</span>
+            </div>
+            <div class="tam-circle tam-som">
+              <span class="tam-label">SOM</span>
+              <span class="tam-value">$120M</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="tam-legend">
+          <div class="tam-legend-item">
+            <div class="tam-legend-dot"></div>
+            <div class="tam-legend-text">
+              <strong>TAM — Total Addressable Market: $47B</strong>
+              <span>180M knowledge workers globally who manage research, documents, or information at work. Everyone who <em>could</em> benefit from the solution.</span>
+            </div>
+          </div>
+          <div class="tam-legend-item">
+            <div class="tam-legend-dot"></div>
+            <div class="tam-legend-text">
+              <strong>SAM — Serviceable Addressable Market: $3.2B</strong>
+              <span>15M academic researchers reachable via university channels, academic platforms, and research communities. The portion Lumio can realistically reach.</span>
+            </div>
+          </div>
+          <div class="tam-legend-item">
+            <div class="tam-legend-dot"></div>
+            <div class="tam-legend-text">
+              <strong>SOM — Serviceable Obtainable Market: $120M</strong>
+              <span>500K STEM PhD students writing literature reviews, the wedge Alex can realistically capture in Year 1–2. Bottom-up: 500K users × $20/month × 12 months.</span>
+            </div>
+          </div>
+        </div>
+
+        <p style="margin-top: 24px; font-size: 0.875rem; color: var(--color-text-muted);">Always size using <strong>both</strong> approaches: top-down (industry reports → narrow to segment) and bottom-up (# of customers × average revenue per user). If both numbers converge, you have a credible estimate.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- STORY SCENE 3: The Smoke Test -->
+  <section class="story-scene">
+    <div class="container">
+      <div class="story-prose">
+        <span class="story-date">November 3rd, Coffee Shop, Saturday</span>
+        <p>Alex had read about smoke tests in a YC blog post. The idea was almost offensively simple: build a landing page for a product that doesn't exist, run ads at it, and measure whether people want it enough to give you their email address. She told herself she'd try it over the weekend. It took her until 11pm on Friday to actually start.</p>
+        <p>By Saturday morning, she had a Carrd page. Headline: <em>"Lumio — Never lose a research insight again."</em> Three bullet points. An email signup form. She spent $50 on Google Ads targeting search terms like "research paper management" and "academic literature tool." She set the campaign live at 3pm and refreshed the analytics dashboard approximately every seven minutes for the rest of the day.</p>
+        <p>Sunday evening results: 847 impressions, 63 clicks (7.4% CTR), 19 email signups. That was a 30% email capture rate. She read every one of the 19 emails. The third one said: <em>"I have been waiting for something like this for literally years."</em></p>
+        <p>Alex screamed into a pillow. Then opened her notebook and wrote, in capital letters: <em>IT'S REAL.</em></p>
+        <div class="story-quote">
+          "Don't build it until someone's willing to give you their email address for something that doesn't exist yet."
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONCEPT BLOCK: Smoke Test -->
+  <section class="section-sm" style="background: var(--color-bg);">
+    <div class="container prose">
+      <div class="concept-block ch1">
+        <span class="concept-icon">💨</span>
+        <h3 class="concept-title">The Smoke Test / Fake Door Test</h3>
+        <div class="concept-body">
+          <p>A <strong>smoke test</strong> (also called a fake door test) is a lightweight experiment: you launch a landing page or ad describing a product that doesn't yet exist and measure real interest before building anything.</p>
+          <p><strong>How to set one up:</strong></p>
+          <ul>
+            <li>Build a simple landing page (Carrd, Webflow, Unbounce) describing the core value proposition</li>
+            <li>Drive traffic via a small paid ad budget ($50–$200) or organic posts in relevant communities</li>
+            <li>Measure: click-through rate, email capture rate, and any messages you receive</li>
+          </ul>
+          <p><strong>What counts as a signal:</strong> An email capture rate above 5% is considered a strong demand signal. Alex hit 30%, which is exceptional. A rate below 1–2% suggests either a messaging problem or a demand problem.</p>
+          <p><strong>What it doesn't prove:</strong> Willingness to pay. "Sounds cool" ≠ credit card. The smoke test validates interest; pre-sales validate intent to pay. Both matter.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FRAMEWORK CARD: Validation Signals -->
+  <section class="section-sm" style="background: var(--color-surface-2);">
+    <div class="container prose">
+      <div class="framework-card">
+        <span class="framework-label">Framework · Validation</span>
+        <h3 class="framework-title">6 Signals That Validate Real Market Demand</h3>
+        <p style="color: var(--color-text-muted); margin-bottom: 24px; font-size: 0.9rem;">These are the signals that separate genuine market pull from polite interest. Alex's score after her first month: 5 out of 6.</p>
+
+        <div class="signals-list">
+          <div class="signal-item">
+            <div class="signal-check hit">✓</div>
+            <div class="signal-text">
+              <div class="signal-title">Customers describe the problem in detail without prompting</div>
+              <div class="signal-note">Alex's smoke test emails included unprompted paragraphs about paper management frustration.</div>
+            </div>
+          </div>
+          <div class="signal-item">
+            <div class="signal-check hit">✓</div>
+            <div class="signal-text">
+              <div class="signal-title">Existing workarounds (spreadsheets, manual processes, duct-tape solutions)</div>
+              <div class="signal-note">Competitor reviews revealed users building elaborate folder structures and Google Docs systems.</div>
+            </div>
+          </div>
+          <div class="signal-item">
+            <div class="signal-check">–</div>
+            <div class="signal-text">
+              <div class="signal-title">Willingness to pay upfront or join a waitlist</div>
+              <div class="signal-note">Not yet tested. The smoke test captured emails but didn't include a price or pre-sale option.</div>
+            </div>
+          </div>
+          <div class="signal-item">
+            <div class="signal-check hit">✓</div>
+            <div class="signal-text">
+              <div class="signal-title">High engagement on a landing page (&gt;5% email capture rate)</div>
+              <div class="signal-note">30% email capture. Far above the 5% threshold. This is a very strong signal.</div>
+            </div>
+          </div>
+          <div class="signal-item">
+            <div class="signal-check hit">✓</div>
+            <div class="signal-text">
+              <div class="signal-title">Active communities, forums, or support groups around the pain point</div>
+              <div class="signal-note">r/GradSchool, r/PhD, academic Twitter, all full of paper management complaints.</div>
+            </div>
+          </div>
+          <div class="signal-item">
+            <div class="signal-check hit">✓</div>
+            <div class="signal-text">
+              <div class="signal-title">Competitors exist (proves demand) but leave a segment underserved</div>
+              <div class="signal-note">Zotero, Mendeley, Papers, all exist and all miss cross-paper connection and context restoration.</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOUNDER'S EXERCISE -->
+  <section class="section-sm" style="background: var(--color-bg);">
+    <div class="container prose">
+      <div class="exercise-box">
+        <div class="exercise-header">
+          <span class="exercise-icon">✏️</span>
+          <div class="exercise-header-text">
+            <h3 class="exercise-title">Write Your Problem Hypothesis</h3>
+            <p class="exercise-subtitle">Use Alex's process. Fill in the template below. This is your first validation artifact. Be specific. Vague hypotheses lead to vague findings.</p>
+          </div>
+        </div>
+
+        <div class="hypothesis-template">
+          I believe <span class="template-field">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> [target customer] struggles with <span class="template-field">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> [problem] when <span class="template-field">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> [context].
+        </div>
+
+        <div class="exercise-form">
+          <div class="form-group">
+            <label class="form-label">Who is your target customer? (Be specific, not "small businesses")</label>
+            <textarea class="form-input form-textarea" placeholder="e.g., 2nd–4th year PhD students in STEM programs writing their first literature review..."></textarea>
+          </div>
+          <div class="form-group">
+            <label class="form-label">What problem do they face?</label>
+            <textarea class="form-input form-textarea" placeholder="e.g., lose significant time re-reading papers they've already annotated because context doesn't persist..."></textarea>
+          </div>
+          <div class="form-group">
+            <label class="form-label">In what context or situation does this happen?</label>
+            <textarea class="form-input form-textarea" placeholder="e.g., when returning to a paper they read weeks ago during a writing sprint..."></textarea>
+          </div>
+          <div class="form-group">
+            <label class="form-label">What evidence do you have that this is real?</label>
+            <span class="form-hint">Competitor reviews? Your own experience? Community complaints? Social media?</span>
+            <textarea class="form-input form-textarea" placeholder="e.g., Found 3 one-star reviews on Mendeley citing this exact problem. My own experience validates it too..."></textarea>
+          </div>
+          <div class="form-group">
+            <label class="form-label">Your smoke test threshold</label>
+            <span class="form-hint">Set your decision rule BEFORE you run the test. What result would convince you to proceed?</span>
+            <input class="form-input" type="text" placeholder="e.g., If 20%+ of landing page visitors sign up AND 3+ people email me unprompted, I proceed to interviews.">
+          </div>
+        </div>
+
+        <div class="exercise-callout">
+          <strong>Alex's hypothesis:</strong> "I believe PhD students and postdocs struggle with re-establishing context for papers they've already read when returning to them weeks later. I know this is real because 3 competitor reviews mention it explicitly. My threshold: if 25% of landing page visitors sign up, I proceed to interviews."
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- KEY TAKEAWAYS -->
+  <section class="section-sm" style="background: var(--color-surface-2);">
+    <div class="container prose">
+      <div class="takeaways-box ch1">
+        <h3 class="takeaways-title">Chapter 1 Takeaways</h3>
+        <div class="takeaway-item">
+          <span class="takeaway-num">1</span>
+          <p class="takeaway-text"><strong>Validate before building.</strong> Most startups fail not because they build badly, but because they build something nobody wants. 15–20 problem interviews and a smoke test can save you months of wasted work.</p>
+        </div>
+        <div class="takeaway-item">
+          <span class="takeaway-num">2</span>
+          <p class="takeaway-text"><strong>Competitors are your friends.</strong> Their existence proves demand. Read their negative reviews to find the exact gap they're leaving open. That gap is your opportunity.</p>
+        </div>
+        <div class="takeaway-item">
+          <span class="takeaway-num">3</span>
+          <p class="takeaway-text"><strong>Set your threshold before you start.</strong> Decide in advance what evidence would convince you to proceed or pivot. "Sounds cool" ≠ willingness to pay. "I've been waiting for this for years" + 30% email capture = something real.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CHAPTER NAVIGATION -->
+  <section class="section-sm">
+    <div class="container prose">
+      <div class="chapter-nav">
+        <a href="index.html" class="chapter-prev">
+          <span class="chapter-nav-label">Story Hub</span>
+          <span class="chapter-nav-title">← Back to the Beginning</span>
+        </a>
+        <a href="chapter-2.html" class="chapter-next">
+          <span class="chapter-nav-label">Chapter 02</span>
+          <span class="chapter-nav-title">Getting Out of the Building →</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-inner">
+        <div>
+          <a href="index.html" class="footer-logo">The Founder's Journey</a>
+          <p class="footer-tagline">Entrepreneurship education through digital storytelling.</p>
+        </div>
+        <div class="footer-links">
+          <a href="chapter-1.html" class="footer-link">Ch.1 — Problem</a>
+          <a href="chapter-2.html" class="footer-link">Ch.2 — Discovery</a>
+          <a href="chapter-3.html" class="footer-link">Ch.3 — Model</a>
+          <a href="chapter-4.html" class="footer-link">Ch.4 — Launch</a>
+        </div>
+      </div>
+      <p class="footer-attribution">Built from synthesized entrepreneurship research covering problem validation, market sizing, and hypothesis testing principles used across leading startup programs worldwide.</p>
+    </div>
+  </footer>
+
+  <script src="js/app.js"></script>
+</body>
+</html>

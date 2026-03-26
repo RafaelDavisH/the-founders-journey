@@ -1,0 +1,137 @@
+/* ============================================================
+   THE FOUNDER'S JOURNEY — Animations & Transitions
+   ============================================================ */
+
+/* === PAGE ENTRANCE === */
+@keyframes fadeInUp {
+  from { opacity: 0; transform: translateY(24px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+.fade-in { animation: fadeInUp 500ms ease forwards; }
+.fade-in-delay  { animation: fadeInUp 500ms ease 150ms forwards; opacity: 0; }
+.fade-in-delay-2 { animation: fadeInUp 500ms ease 300ms forwards; opacity: 0; }
+.fade-in-delay-3 { animation: fadeInUp 500ms ease 450ms forwards; opacity: 0; }
+
+/* === SCROLL-TRIGGERED (JS adds .visible) === */
+.chapter-card {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 500ms ease, transform 500ms ease;
+}
+.chapter-card.visible { opacity: 1; transform: translateY(0); }
+
+.timeline-step {
+  opacity: 0;
+  transform: translateX(-16px);
+  transition: opacity 400ms ease, transform 400ms ease;
+}
+.timeline-step.visible { opacity: 1; transform: translateX(0); }
+
+.motion-card {
+  opacity: 0;
+  transform: translateY(16px);
+  transition: opacity 400ms ease, transform 400ms ease;
+}
+.motion-card.visible { opacity: 1; transform: translateY(0); }
+
+.concept-block {
+  opacity: 0;
+  transform: translateY(16px);
+  transition: opacity 500ms ease, transform 500ms ease;
+}
+.concept-block.visible { opacity: 1; transform: translateY(0); }
+
+.framework-card {
+  opacity: 0;
+  transform: translateY(16px);
+  transition: opacity 500ms ease, transform 500ms ease;
+}
+.framework-card.visible { opacity: 1; transform: translateY(0); }
+
+.outcome-card {
+  opacity: 0;
+  transform: translateY(16px);
+  transition: opacity 400ms ease, transform 400ms ease;
+}
+.outcome-card.visible { opacity: 1; transform: translateY(0); }
+
+.epilogue-stat-num {
+  opacity: 0;
+  transform: scale(0.8);
+  transition: opacity 500ms ease, transform 500ms cubic-bezier(0.34,1.56,0.64,1);
+}
+.epilogue-stat-num.visible { opacity: 1; transform: scale(1); }
+
+/* Stagger grid children */
+.grid-2 > *:nth-child(2),
+.grid-3 > *:nth-child(2),
+.grid-4 > *:nth-child(2),
+.four-grid > *:nth-child(2) { transition-delay: 100ms; }
+.grid-3 > *:nth-child(3),
+.grid-4 > *:nth-child(3),
+.four-grid > *:nth-child(3) { transition-delay: 200ms; }
+.grid-4 > *:nth-child(4),
+.four-grid > *:nth-child(4) { transition-delay: 300ms; }
+
+/* === CHAPTER HERO ENTRANCE === */
+@keyframes heroSlideDown {
+  from { opacity: 0; transform: translateY(-16px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+.chapter-hero h1 { animation: heroSlideDown 600ms ease; }
+.chapter-hero .chapter-hero-quote { animation: heroSlideDown 600ms ease 200ms both; }
+
+/* === TAM CIRCLE ENTRANCE === */
+@keyframes circleGrow {
+  from { transform: scale(0.7); opacity: 0; }
+  to   { transform: scale(1); opacity: 1; }
+}
+.tam-tam { animation: circleGrow 600ms ease backwards; }
+.tam-sam { animation: circleGrow 600ms ease 150ms backwards; }
+.tam-som { animation: circleGrow 600ms ease 300ms backwards; }
+
+/* === READING PROGRESS === */
+.reading-progress { transition: width 80ms linear; }
+
+/* === BUTTON INTERACTIONS === */
+.btn {
+  transition: background var(--transition), transform var(--transition),
+              box-shadow var(--transition), border-color var(--transition), color var(--transition);
+}
+.btn:hover { box-shadow: 0 4px 12px rgba(0,0,0,0.12); }
+.btn:active { transform: scale(0.96) !important; }
+
+/* === CARD HOVER === */
+.card, .chapter-card, .motion-card { will-change: transform; }
+
+/* === CHECKLIST TRANSITIONS === */
+.checklist-item { transition: background 200ms ease, border-color 200ms ease; }
+.checklist-item label { transition: color 200ms ease, text-decoration 200ms ease; }
+
+/* === EPILOGUE STATS === */
+@keyframes statReveal {
+  from { opacity: 0; transform: scale(0.8); }
+  to   { opacity: 1; transform: scale(1); }
+}
+.epilogue-stat:nth-child(2) .epilogue-stat-num { transition-delay: 200ms; }
+.epilogue-stat:nth-child(3) .epilogue-stat-num { transition-delay: 400ms; }
+
+/* === STORY SCENE FADE === */
+@keyframes storyReveal { from { opacity: 0; } to { opacity: 1; } }
+.story-scene { animation: storyReveal 600ms ease; }
+
+/* === NAV LINK ACTIVE UNDERLINE === */
+.nav-link { position: relative; }
+.nav-link.active::after {
+  content: ''; position: absolute; bottom: -4px; left: 0; right: 0;
+  height: 2px; background: var(--color-primary); border-radius: 2px;
+}
+
+/* === REDUCE MOTION === */
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-delay: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+  }
+}

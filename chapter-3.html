@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chapter 3: The Business Blueprint — The Founder's Journey</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;0,900;1,700&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/animations.css">
+</head>
+<body>
+
+  <div class="reading-progress" id="readingProgress"></div>
+
+  <header class="site-header">
+    <div class="nav-inner">
+      <a href="index.html" class="nav-logo">The Founder's Journey</a>
+      <nav aria-label="Chapter navigation">
+        <ul class="nav-links">
+          <li><a href="chapter-1.html" class="nav-link">Ch.1 Problem</a></li>
+          <li><a href="chapter-2.html" class="nav-link">Ch.2 Discovery</a></li>
+          <li><a href="chapter-3.html" class="nav-link active">Ch.3 Model</a></li>
+          <li><a href="chapter-4.html" class="nav-link">Ch.4 Launch</a></li>
+        </ul>
+      </nav>
+      <a href="chapter-4.html" class="btn btn-primary btn-sm">Next Chapter →</a>
+    </div>
+  </header>
+
+  <!-- CHAPTER HERO -->
+  <section class="chapter-hero ch3">
+    <div class="container">
+      <span class="chapter-hero-eyebrow">Chapter 03 · Business Model Basics</span>
+      <h1>The Business Blueprint</h1>
+      <p class="chapter-hero-quote">"Everyone has a product idea. Almost nobody has a business model. I was about to discover the difference." — Alex's journal, Week 7</p>
+    </div>
+  </section>
+
+  <!-- STORY SCENE 1: The Napkin Canvas -->
+  <section class="story-scene">
+    <div class="container">
+      <div class="story-prose">
+        <span class="story-date">December 2nd, Blue Bottle Coffee, 9:00 AM</span>
+        <p>Alex's mentor Diana had the energy of someone who had made and lost fortunes before 40 and was now specifically interested in not letting younger founders repeat her mistakes. She ordered an oat latte, sat across from Alex, and said nothing for a long moment while she read the Lean Canvas Alex had slid across the table.</p>
+        <p>"Your problem box is excellent," Diana said. "Your customer segments are too broad. And your revenue streams..." She tapped the blank box. "...are empty."</p>
+        <p>Alex had been stuck on the revenue question for two weeks. She'd been avoiding it the way you avoid a dental appointment, urgent but never quite urgent enough to schedule. Diana ordered a second espresso and said: "Let's start there. You have three basic options for charging researchers: per seat, per usage, or per institution. Before I tell you which one makes sense, I want you to answer a question." She leaned forward. "Which model scales with your customer's success rather than against it?"</p>
+        <p>Alex opened her notebook and wrote that question down word for word. It was the first time she'd thought about pricing as a <em>philosophy</em> rather than a number.</p>
+        <div class="story-quote">
+          "The business model is not just 'how you make money.' It's how you align your incentives with your customers'."
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONCEPT BLOCK: BMC vs Lean Canvas -->
+  <section class="section-sm" style="background: var(--color-bg);">
+    <div class="container prose">
+      <div class="concept-block ch3">
+        <span class="concept-icon">📐</span>
+        <h3 class="concept-title">Two Canvases, One Goal</h3>
+        <div class="concept-body">
+          <p>A <strong>business model</strong> is the fundamental logic of how a company creates, delivers, and captures value. Two canvas-style frameworks help founders map this out:</p>
+          <p>The <strong>Traditional Business Canvas</strong> is a nine-block strategic tool covering Value Propositions, Customer Segments, Channels, Revenue Streams, Key Resources, Key Activities, Key Partnerships, Customer Relationships, and Cost Structure. It's comprehensive, and somewhat overwhelming for a pre-product startup where most of those blocks are still hypothetical.</p>
+          <p>The <strong>Lean Canvas</strong> adapts this for early-stage startups by replacing "Key Partnerships," "Key Activities," and "Key Resources" with <em>Problem</em>, <em>Key Metrics</em>, and <em>Unfair Advantage</em>, the three things that matter most before you've validated anything. It can be filled out in 20 minutes and should be treated as a living document, updated weekly.</p>
+
+          <table class="concept-table" style="margin-top: 20px;">
+            <thead>
+              <tr><th></th><th>Traditional Business Canvas</th><th>Lean Canvas</th></tr>
+            </thead>
+            <tbody>
+              <tr><td><strong>Origin</strong></td><td>Strategy consulting &amp; enterprise planning</td><td>Early-stage startup validation</td></tr>
+              <tr><td><strong>Best for</strong></td><td>Existing or established businesses</td><td>Early-stage startups pre-product</td></tr>
+              <tr><td><strong>Unique blocks</strong></td><td>Key Partners, Key Activities, Key Resources</td><td>Problem, Key Metrics, Unfair Advantage</td></tr>
+              <tr><td><strong>Focus</strong></td><td>How the business operates</td><td>What hypotheses to test first</td></tr>
+              <tr><td><strong>Update frequency</strong></td><td>Quarterly or less</td><td>Weekly until product-market fit</td></tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FRAMEWORK CARD: Lean Canvas -->
+  <section class="section-sm" style="background: var(--color-surface-2);">
+    <div class="container">
+      <div class="framework-card">
+        <span class="framework-label">Framework · Lean Canvas</span>
+        <h3 class="framework-title">Alex's Lean Canvas for Lumio</h3>
+        <p style="color: var(--color-text-muted); margin-bottom: 28px; font-size: 0.9rem;">This is the version Alex had after 20 customer interviews. The first version was mostly blank. That's normal. The canvas is a hypothesis, not a plan.</p>
+
+        <div class="canvas-wrapper">
+          <div class="canvas-grid">
+            <!-- Row 1: Problem (spans 2 rows) | Solution | UVP (spans 2 rows) | Unfair Advantage | Customer Segments (spans 2 rows) -->
+            <div class="canvas-block" style="grid-column: 1; grid-row: 1 / 3;">
+              <span class="canvas-block-title">Problem</span>
+              <div class="canvas-block-content">
+                <ul>
+                  <li>Researchers lose 30–60 min/day re-establishing context with papers they've already read</li>
+                  <li>Cross-paper connections are invisible in current tools</li>
+                  <li>Citation chaos during writing phases</li>
+                </ul>
+                <p style="margin-top: 8px; font-size: 0.75rem; color: var(--color-text-muted);">Existing alternatives: Zotero, Mendeley, messy Google Docs</p>
+              </div>
+            </div>
+            <div class="canvas-block" style="grid-column: 2; grid-row: 1;">
+              <span class="canvas-block-title">Solution</span>
+              <div class="canvas-block-content">
+                <ul>
+                  <li>AI reading memory that resurfaces context on demand</li>
+                  <li>Automatic cross-paper connection graph</li>
+                  <li>Smart citation management</li>
+                </ul>
+              </div>
+            </div>
+            <div class="canvas-block" style="grid-column: 3; grid-row: 1 / 3;">
+              <span class="canvas-block-title">Unique Value Proposition</span>
+              <div class="canvas-block-content">
+                <p><strong>Never lose a research insight again.</strong></p>
+                <p>Lumio remembers everything you've read, so your brain doesn't have to.</p>
+              </div>
+            </div>
+            <div class="canvas-block" style="grid-column: 4; grid-row: 1;">
+              <span class="canvas-block-title">Unfair Advantage</span>
+              <div class="canvas-block-content">
+                <ul>
+                  <li>Research background of founders</li>
+                  <li>Early academic community trust</li>
+                  <li>Network of PhD advocates</li>
+                </ul>
+              </div>
+            </div>
+            <div class="canvas-block" style="grid-column: 5; grid-row: 1 / 3;">
+              <span class="canvas-block-title">Customer Segments</span>
+              <div class="canvas-block-content">
+                <p><strong>Early Adopters:</strong></p>
+                <p>STEM PhD students (2nd–4th year) at R1 universities writing their first major literature review.</p>
+                <p style="margin-top: 8px; font-size: 0.78rem; color: var(--color-text-muted);">Later: research teams, postdocs, faculty</p>
+              </div>
+            </div>
+            <!-- Row 2 -->
+            <div class="canvas-block" style="grid-column: 2; grid-row: 2;">
+              <span class="canvas-block-title">Key Metrics</span>
+              <div class="canvas-block-content">
+                <ul>
+                  <li>Weekly Active Users</li>
+                  <li>Papers processed/user/week</li>
+                  <li>D30/D60/D90 retention</li>
+                  <li>MRR growth rate</li>
+                </ul>
+              </div>
+            </div>
+            <div class="canvas-block" style="grid-column: 4; grid-row: 2;">
+              <span class="canvas-block-title">Channels</span>
+              <div class="canvas-block-content">
+                <ul>
+                  <li>Academic Twitter</li>
+                  <li>r/GradSchool, PhD communities</li>
+                  <li>University research centers</li>
+                  <li>Product Hunt</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <!-- Bottom row -->
+          <div class="canvas-bottom-row" style="margin-top: 2px;">
+            <div class="canvas-block">
+              <span class="canvas-block-title">Cost Structure</span>
+              <div class="canvas-block-content" style="display: flex; gap: 24px; flex-wrap: wrap;">
+                <span>Hosting (AWS)</span>
+                <span>AI API costs (OpenAI)</span>
+                <span>Engineering salary</span>
+                <span>Community marketing</span>
+              </div>
+            </div>
+            <div class="canvas-block">
+              <span class="canvas-block-title">Revenue Streams</span>
+              <div class="canvas-block-content" style="display: flex; gap: 24px; flex-wrap: wrap;">
+                <span>Individual: $12/mo</span>
+                <span>Researcher+: $29/mo</span>
+                <span>Team: $299/mo</span>
+                <span>Institutional (Year 2)</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- STORY SCENE 2: Choosing Revenue Model -->
+  <section class="story-scene">
+    <div class="container">
+      <div class="story-prose">
+        <span class="story-date">December 9th, Diana's Office</span>
+        <p>Diana pulled up a spreadsheet. "Walk me through your math." Alex explained her thinking: $15 per user per month. That felt right, not too cheap to be taken seriously and not so expensive that PhD students on stipends would bounce. Diana nodded slowly and typed something. "What's your churn assumption?"</p>
+        <p>Alex blinked. "Churn?"</p>
+        <p>Diana turned her screen. She had a simple LTV formula with variables. She asked Alex to fill in the numbers. ARPU: $15. Gross margin: 80% (software is mostly infra costs). Monthly churn rate: Alex guessed 5%, which Diana said was typical for freemium tools without strong habit loops. The formula spat out a number: LTV = $240. Diana's estimated CAC through paid ads: $120. Ratio: 2:1.</p>
+        <p>"You need 3:1 at minimum," Diana said. "2:1 means you're not building a business, you're building a hamster wheel." She started adjusting variables. What if churn dropped to 3% with better onboarding? LTV jumps to $400. CAC via community: $60. Ratio: 6.7:1. "That," Diana said, "is a business."</p>
+        <p>Alex stared at the numbers. She wrote three new pricing scenarios in her notebook. Then she wrote the ratio she needed to clear: <em>3:1, minimum.</em></p>
+        <div class="story-quote">
+          "Pricing is not a number. It's a hypothesis about value."
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONCEPT BLOCK: Revenue Model Types -->
+  <section class="section-sm" style="background: var(--color-bg);">
+    <div class="container prose">
+      <div class="concept-block ch3">
+        <span class="concept-icon">💰</span>
+        <h3 class="concept-title">Revenue Model Types</h3>
+        <div class="concept-body">
+          <p>The revenue model you choose determines your incentives, your cash flow dynamics, and who your best customers are. Choose the model that scales with your customer's success.</p>
+          <table class="concept-table">
+            <thead>
+              <tr><th>Model</th><th>Description</th><th>Examples</th><th>Key Metric</th></tr>
+            </thead>
+            <tbody>
+              <tr><td><strong>SaaS / Subscription</strong></td><td>Recurring fee for ongoing access</td><td>Slack, Notion, Netflix</td><td>MRR/ARR, churn rate</td></tr>
+              <tr><td><strong>Marketplace</strong></td><td>Commission on transactions between parties</td><td>Airbnb (12–15%), Uber (10–30%)</td><td>GMV, take rate</td></tr>
+              <tr><td><strong>Freemium</strong></td><td>Free tier + paid upgrade path</td><td>Dropbox, Spotify, LinkedIn</td><td>Free-to-paid conversion</td></tr>
+              <tr><td><strong>Usage-Based</strong></td><td>Pay per unit consumed</td><td>AWS, Twilio, Stripe</td><td>Units consumed × price</td></tr>
+              <tr><td><strong>Advertising</strong></td><td>Revenue from showing ads to users</td><td>Google, Meta, YouTube</td><td>CPM, DAU</td></tr>
+              <tr><td><strong>Direct / Licensing</strong></td><td>B2B contracts, often annual</td><td>Salesforce, Workday</td><td>ACV, win rate</td></tr>
+            </tbody>
+          </table>
+          <p style="margin-top: 16px;"><strong>Alex's choice:</strong> SaaS subscription with freemium entry, which aligns with research culture (free tools are expected), team expansion creates a natural upsell path, and recurring revenue is predictable for planning.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FRAMEWORK CARD: Unit Economics -->
+  <section class="section-sm" style="background: var(--color-surface-2);">
+    <div class="container prose">
+      <div class="framework-card">
+        <span class="framework-label">Framework · Unit Economics</span>
+        <h3 class="framework-title">Does Your Business Actually Work?</h3>
+        <p style="color: var(--color-text-muted); margin-bottom: 24px; font-size: 0.9rem;">Unit economics answer the most fundamental question in business: do you make more money from a customer than it costs to acquire and serve them?</p>
+
+        <div class="formula-block">
+LTV  = ARPU × Gross Margin % × (1 / Monthly Churn Rate)
+     = $15 × 80% × (1 / 0.03)
+     = $400
+
+CAC  = Total Sales &amp; Marketing Spend / New Customers Acquired
+     = ~$60 (via community-led acquisition)
+
+LTV : CAC  =  $400 : $60  =  6.7 : 1  ✓  (target: ≥ 3:1)
+        </div>
+
+        <div class="unit-econ-grid">
+          <div class="unit-econ-card">
+            <span class="unit-econ-label">LTV : CAC Ratio</span>
+            <span class="unit-econ-value good">6.7:1</span>
+            <div class="unit-econ-desc">Target ≥ 3:1 · Lumio: ✓ excellent</div>
+          </div>
+          <div class="unit-econ-card">
+            <span class="unit-econ-label">CAC Payback Period</span>
+            <span class="unit-econ-value good">2.5 mo</span>
+            <div class="unit-econ-desc">Target ≤ 12 months · Lumio: ✓</div>
+          </div>
+          <div class="unit-econ-card">
+            <span class="unit-econ-label">Monthly Churn (target)</span>
+            <span class="unit-econ-value target">3%</span>
+            <div class="unit-econ-desc">Target &lt;2% B2B · acceptable at launch</div>
+          </div>
+        </div>
+
+        <p style="font-size: 0.875rem; color: var(--color-text-muted); margin-top: 8px;">The LTV formula uses monthly churn as a proxy for customer lifetime. At 3% churn, average customer lifetime = 33 months. At 10% churn, it's only 10 months, and the whole business math falls apart.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- STORY SCENE 3: First Pivot Signal -->
+  <section class="story-scene">
+    <div class="container">
+      <div class="story-prose">
+        <span class="story-date">January 15th, Alex's Apartment, Late</span>
+        <p>Lumio had 40 beta users. Six weeks in. Alex opened her analytics on a Sunday night, expecting good news. She found a dashboard that told a complicated story: 60% of users had not logged in in the past two weeks. Monthly churn: 8%. Free-to-paid conversion: 3%.</p>
+        <p>Both were below Diana's thresholds. Alex opened Notion and pulled up the pivot signal checklist. Monthly churn above 10%? Not quite, but trending toward it. Free-to-paid below 5%? Yes. She felt the specific nausea of data that you can't argue with.</p>
+        <p>She almost closed the laptop. Instead, she opened her email and personally messaged the five most active users, the ones with green dots on their accounts almost daily. "What are you actually using Lumio for?" Three replied within an hour. All three said almost the same thing: they weren't using it to read papers faster. They were using it to <em>revisit</em> papers they'd read months ago. Not speed of reading. Time of retrieval.</p>
+        <p>She opened her Lean Canvas and erased the Solution block with one swipe. She rewrote it. This was not a failure. This was a feature pivot: same customer, same problem, different solution mechanism. She texted Diana: "I think I know what I was building wrong."</p>
+        <div class="story-quote">
+          "A pivot is not giving up. It's updating your hypothesis based on evidence."
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONCEPT BLOCK: Pivot vs Persevere -->
+  <section class="section-sm" style="background: var(--color-bg);">
+    <div class="container prose">
+      <div class="concept-block ch3">
+        <span class="concept-icon">🔀</span>
+        <h3 class="concept-title">Pivot or Persevere?</h3>
+        <div class="concept-body">
+          <p>This is one of the hardest decisions in early-stage startups. The answer should never be emotional. It should be data-driven. Set your thresholds before you launch, so you're not rationalizing when the numbers come in.</p>
+
+          <div class="pivot-grid">
+            <div class="pivot-card pivot">
+              <div class="pivot-card-title">🔴 Pivot if...</div>
+              <ul>
+                <li>CAC hasn't decreased after 6 months of optimization</li>
+                <li>Monthly churn &gt;10% (SaaS)</li>
+                <li>Free-to-paid conversion &lt;5% (freemium)</li>
+                <li>Gross margin is negative</li>
+                <li>Power users don't use the core feature</li>
+              </ul>
+            </div>
+            <div class="pivot-card persevere">
+              <div class="pivot-card-title">🟢 Persevere if...</div>
+              <ul>
+                <li>Core user retention is strong among a small group</li>
+                <li>Problem still validated, execution needs work</li>
+                <li>Leading indicators trending right (activation improving)</li>
+                <li>Power users are passionate and vocal</li>
+                <li>CAC is trending down quarter-over-quarter</li>
+              </ul>
+            </div>
+          </div>
+
+          <p style="margin-top: 16px;"><strong>Types of pivots:</strong> Feature pivot (same customer, different core value), pricing pivot (same product, different price model), segment pivot (different customer, same product), channel pivot (same everything, different acquisition path).</p>
+          <p><strong>Alex's pivot type:</strong> Feature pivot, same customer (PhD students), same problem (context loss), but a different solution mechanism (retrieval system vs. speed-reading assistant).</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOUNDER'S EXERCISE: Sketch Your Lean Canvas -->
+  <section class="section-sm" style="background: var(--color-surface-2);">
+    <div class="container prose">
+      <div class="exercise-box">
+        <div class="exercise-header">
+          <span class="exercise-icon">✏️</span>
+          <div class="exercise-header-text">
+            <h3 class="exercise-title">Sketch Your Lean Canvas</h3>
+            <p class="exercise-subtitle">Don't overthink it. A Lean Canvas should take 20 minutes, not 20 days. It's a living hypothesis, so update it weekly as you learn.</p>
+          </div>
+        </div>
+        <div class="exercise-form">
+          <div class="form-group">
+            <label class="form-label">Problem: Top 3 pain points your customer faces</label>
+            <span class="form-hint">Not your solution. Their problems, in their words from interviews.</span>
+            <textarea class="form-input form-textarea" placeholder="1. &#10;2. &#10;3."></textarea>
+          </div>
+          <div class="form-group">
+            <label class="form-label">Customer Segments: Who are your early adopters? Be specific.</label>
+            <span class="form-hint">One clear profile. You can add more segments later.</span>
+            <textarea class="form-input form-textarea" placeholder="e.g., 2nd–4th year STEM PhD students writing their first major literature review..."></textarea>
+          </div>
+          <div class="form-group">
+            <label class="form-label">Unique Value Proposition: One reason to try your product</label>
+            <span class="form-hint">Describe an outcome, not a feature. "Never lose a research insight" beats "AI-powered tagging."</span>
+            <input class="form-input" type="text" placeholder="e.g., Never lose a research insight again.">
+          </div>
+          <div class="form-group">
+            <label class="form-label">Solution: Top 3 features that address the problems above</label>
+            <span class="form-hint">Keep it minimal. Only what solves the core job-to-be-done.</span>
+            <textarea class="form-input form-textarea" placeholder="1. &#10;2. &#10;3."></textarea>
+          </div>
+          <div class="form-group">
+            <label class="form-label">Revenue Streams: How will you make money?</label>
+            <span class="form-hint">Pick one primary model to start. What's the price point?</span>
+            <input class="form-input" type="text" placeholder="e.g., SaaS subscription at $12/month, freemium entry tier">
+          </div>
+          <div class="form-group">
+            <label class="form-label">Key Metrics: The 3 numbers that tell you if you're succeeding</label>
+            <span class="form-hint">Think: activation, retention, revenue. Not vanity metrics like total signups.</span>
+            <input class="form-input" type="text" placeholder="e.g., D30 retention rate, free-to-paid conversion %, MRR">
+          </div>
+          <div class="form-group">
+            <label class="form-label">Unfair Advantage: What can't competitors easily copy?</label>
+            <span class="form-hint">Network, expertise, data moat, brand, community trust, regulatory advantage.</span>
+            <textarea class="form-input form-textarea" placeholder="e.g., Deep relationships with PhD student communities built over 6 months of genuine engagement..."></textarea>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- KEY TAKEAWAYS -->
+  <section class="section-sm" style="background: var(--color-bg);">
+    <div class="container prose">
+      <div class="takeaways-box ch3">
+        <h3 class="takeaways-title">Chapter 3 Takeaways</h3>
+        <div class="takeaway-item">
+          <span class="takeaway-num">1</span>
+          <p class="takeaway-text"><strong>Fill the canvas before you code.</strong> The Lean Canvas forces clarity on the hardest questions: who pays, how much, and why you. Filling it out exposes the gaps in your thinking far faster than building exposes them.</p>
+        </div>
+        <div class="takeaway-item">
+          <span class="takeaway-num">2</span>
+          <p class="takeaway-text"><strong>Unit economics are non-negotiable.</strong> A 3:1 LTV:CAC ratio isn't a nice-to-have; it's the fundamental math that determines whether your business can survive scaling. Calculate it early, even with rough estimates.</p>
+        </div>
+        <div class="takeaway-item">
+          <span class="takeaway-num">3</span>
+          <p class="takeaway-text"><strong>Pivots are data-driven, not emotional.</strong> Set your thresholds before you launch. When you hit your churn or conversion floor, look at what your <em>best</em> users are actually doing. Their behavior points toward the pivot you need.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CHAPTER NAVIGATION -->
+  <section class="section-sm">
+    <div class="container prose">
+      <div class="chapter-nav">
+        <a href="chapter-2.html" class="chapter-prev">
+          <span class="chapter-nav-label">Chapter 02</span>
+          <span class="chapter-nav-title">← Getting Out of the Building</span>
+        </a>
+        <a href="chapter-4.html" class="chapter-next">
+          <span class="chapter-nav-label">Chapter 04</span>
+          <span class="chapter-nav-title">Launch Day →</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-inner">
+        <div>
+          <a href="index.html" class="footer-logo">The Founder's Journey</a>
+          <p class="footer-tagline">Entrepreneurship education through digital storytelling.</p>
+        </div>
+        <div class="footer-links">
+          <a href="chapter-1.html" class="footer-link">Ch.1 — Problem</a>
+          <a href="chapter-2.html" class="footer-link">Ch.2 — Discovery</a>
+          <a href="chapter-3.html" class="footer-link">Ch.3 — Model</a>
+          <a href="chapter-4.html" class="footer-link">Ch.4 — Launch</a>
+        </div>
+      </div>
+      <p class="footer-attribution">Built from synthesized research on business model design, unit economics, and lean startup methodology, drawing from real-world startup practice and accelerator programs globally.</p>
+    </div>
+  </footer>
+
+  <script src="js/app.js"></script>
+</body>
+</html>

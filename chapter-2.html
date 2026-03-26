@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chapter 2: Getting Out of the Building — The Founder's Journey</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;0,900;1,700&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/animations.css">
+</head>
+<body>
+
+  <div class="reading-progress" id="readingProgress"></div>
+
+  <header class="site-header">
+    <div class="nav-inner">
+      <a href="index.html" class="nav-logo">The Founder's Journey</a>
+      <nav aria-label="Chapter navigation">
+        <ul class="nav-links">
+          <li><a href="chapter-1.html" class="nav-link">Ch.1 Problem</a></li>
+          <li><a href="chapter-2.html" class="nav-link active">Ch.2 Discovery</a></li>
+          <li><a href="chapter-3.html" class="nav-link">Ch.3 Model</a></li>
+          <li><a href="chapter-4.html" class="nav-link">Ch.4 Launch</a></li>
+        </ul>
+      </nav>
+      <a href="chapter-3.html" class="btn btn-primary btn-sm">Next Chapter →</a>
+    </div>
+  </header>
+
+  <!-- CHAPTER HERO -->
+  <section class="chapter-hero ch2">
+    <div class="container">
+      <span class="chapter-hero-eyebrow">Chapter 02 · Customer Discovery</span>
+      <h1>Getting Out of the Building</h1>
+      <p class="chapter-hero-quote">"The answers are not in the building. They never were." — Alex's journal, Week 3</p>
+    </div>
+  </section>
+
+  <!-- STORY SCENE 1: Cold DMs -->
+  <section class="story-scene">
+    <div class="container">
+      <div class="story-prose">
+        <span class="story-date">November 8th, Alex's Kitchen, 7:45 AM</span>
+        <p>Alex had 19 email addresses from her smoke test. She opened them in a spreadsheet. Then she stared at the spreadsheet for two days and did nothing.</p>
+        <p>The fear was specific: these were real people who had expressed real interest. What if she talked to them and they told her the idea was terrible? Or worse, what if they were polite about it? She'd read enough startup books to know that politeness was the enemy of useful feedback.</p>
+        <p>On day three she wrote a message and posted it on Twitter: <em>"Hi! I'm a researcher building a tool for managing research papers. Would you have 20 minutes to tell me about your workflow? No pitch, just questions. ☕ on me (virtual)."</em> She sent it as a reply to 30 PhD students she found by searching "literature review" and "PhD" in the past week's posts. Then she closed her laptop and went for a walk.</p>
+        <p>When she came back four hours later: 7 replies. Four agreed to a call. She formatted a question guide from her notebook, scheduled all four interviews for the same week, and told her roommate: "I think I'm about to find out if I'm delusional."</p>
+        <div class="story-quote">
+          "The hardest interview to schedule is the first one. After that, the fear is smaller than the curiosity."
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONCEPT BLOCK: Good Interview Questions -->
+  <section class="section-sm" style="background: var(--color-bg);">
+    <div class="container prose">
+      <div class="concept-block ch2">
+        <span class="concept-icon">🧪</span>
+        <h3 class="concept-title">How to Ask Questions That Actually Work</h3>
+        <div class="concept-body">
+          <p>Most customer conversations fail not because founders ask too many questions, but because they ask the wrong kinds. Questions designed to comfort you produce comfortable lies. Questions designed to reveal reality produce uncomfortable truth, which is the only kind worth having.</p>
+          <p>Three principles every good discovery interview is built on:</p>
+          <ul>
+            <li><strong>1. Talk about their life, not your idea.</strong> The moment you describe your solution, you've biased the conversation. They're now reacting to what you said, not describing their reality. Stay in their world as long as possible.</li>
+            <li><strong>2. Ask about past behavior, not future hypotheses.</strong> "Would you use X?" is nearly worthless. "How did you handle this last week?" reveals real behavior. People systematically overestimate future action and underestimate current habit.</li>
+            <li><strong>3. Listen. Don't pitch.</strong> Discovery is research. The moment you start selling, you stop learning. If you hear yourself explaining what your product does, you've left the interview and started a sales call.</li>
+          </ul>
+
+          <table class="concept-table" style="margin-top: 20px;">
+            <thead>
+              <tr><th>Type</th><th>Question</th><th>Why it fails or works</th></tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>❌ Bad</td>
+                <td>"Would you use an app that helps manage research papers?"</td>
+                <td>Hypothetical and leading, they'll say yes to be polite</td>
+              </tr>
+              <tr>
+                <td>❌ Bad</td>
+                <td>"Don't you find it frustrating to manage citations?"</td>
+                <td>Leading question primes a "yes" because you've told them the answer</td>
+              </tr>
+              <tr>
+                <td>✅ Good</td>
+                <td>"Walk me through how you managed your last literature review."</td>
+                <td>Past behavior, open-ended, reveals the real process</td>
+              </tr>
+              <tr>
+                <td>✅ Good</td>
+                <td>"When did you last lose track of a paper you'd already read?"</td>
+                <td>Specific past event with emotional context</td>
+              </tr>
+              <tr>
+                <td>✅ Good</td>
+                <td>"What did you do when that happened?"</td>
+                <td>Reveals workarounds, the strongest validation signal</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- STORY SCENE 2: Interview #7 -->
+  <section class="story-scene">
+    <div class="container">
+      <div class="story-prose">
+        <span class="story-date">November 16th, Zoom Call, 3:00 PM</span>
+        <p>Interview number seven. Marcus, a third-year materials science PhD student at MIT with the specific tired eyes of someone who had been awake since 5am doing something that wasn't fun. Alex had gotten better at staying quiet. She asked: "Walk me through your last week of research."</p>
+        <p>Marcus laughed nervously. He described downloading 40 papers over the weekend, reading abstracts in Preview, maintaining 14 browser tabs "permanently," and keeping a running Google Doc called "notes_FINAL_v3_REAL.docx." He said the document was 47 pages long and he avoided opening it because it made him anxious.</p>
+        <p>When Alex asked "What happens when you realize two papers you read months apart are actually about the same thing?" he paused for a long beat. "Honestly? I usually lose a day. I have to go back, re-read both papers, rebuild the mental model. It's like..." He searched for the word. "It's like my brain's search function is broken."</p>
+        <p>Alex wrote in the margin of her notepad in capital letters: <em>LOST A DAY. THIS IS THE JOB.</em> She asked three more questions. She thanked him. She hung up and immediately read her notes back. She'd now heard variations of "lost time re-establishing context" from six of seven people. She texted her friend: "I think this is actually real."</p>
+        <div class="story-quote">
+          "The moment a customer describes your product's core value without knowing what you're building, that's validation you can't fake."
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FRAMEWORK CARD: Problem Interview Structure -->
+  <section class="section-sm" style="background: var(--color-bg);">
+    <div class="container prose">
+      <div class="framework-card">
+        <span class="framework-label">Framework · Customer Discovery</span>
+        <h3 class="framework-title">The 30-Minute Problem Interview</h3>
+        <p style="color: var(--color-text-muted); margin-bottom: 28px; font-size: 0.9rem;">The structure Alex used for all 20 of her discovery interviews. The key is moving from broad context to specific pain, and never revealing your solution until you're completely done listening.</p>
+
+        <div class="timeline">
+          <div class="timeline-step">
+            <div class="timeline-dot">1</div>
+            <div class="timeline-content">
+              <span class="timeline-step-time">0–5 min</span>
+              <div class="timeline-step-title">Introduction &amp; Setup</div>
+              <div class="timeline-step-body">Thank them. Clarify this is research, not a sales call. "I'm trying to understand how researchers work. I'm not here to pitch anything." Ask permission to take notes. Briefly explain your background to establish credibility without revealing the product.</div>
+            </div>
+          </div>
+          <div class="timeline-step">
+            <div class="timeline-dot">2</div>
+            <div class="timeline-content">
+              <span class="timeline-step-time">5–15 min</span>
+              <div class="timeline-step-title">Context Questions</div>
+              <div class="timeline-step-body">Understand their role, workflow, tools, and daily challenges. "Walk me through a typical research week." Keep questions open-ended. You're building a map of their world before zooming into the specific pain area. Never reveal what you're building.</div>
+            </div>
+          </div>
+          <div class="timeline-step">
+            <div class="timeline-dot">3</div>
+            <div class="timeline-content">
+              <span class="timeline-step-time">15–25 min</span>
+              <div class="timeline-step-title">Problem Deep-Dive</div>
+              <div class="timeline-step-body">Dive into the specific pain area. Ask about past behavior. Probe for workarounds, the strongest signal. "What do you do when that happens?" "How long does that take you?" "Have you tried to solve this before?" The workaround is your minimum viable product in disguise.</div>
+            </div>
+          </div>
+          <div class="timeline-step">
+            <div class="timeline-dot">4</div>
+            <div class="timeline-content">
+              <span class="timeline-step-time">25–28 min</span>
+              <div class="timeline-step-title">Problem Ranking</div>
+              <div class="timeline-step-body">"Of all the frustrations you mentioned, which would you most want solved first?" Silence is okay here. Their answer, especially if it matches your hypothesis, is more valuable than 10 surveys. Their ranking reveals priorities far better than any questionnaire.</div>
+            </div>
+          </div>
+          <div class="timeline-step">
+            <div class="timeline-dot">5</div>
+            <div class="timeline-content">
+              <span class="timeline-step-time">28–30 min</span>
+              <div class="timeline-step-title">Referrals</div>
+              <div class="timeline-step-body">"Is there anyone else dealing with this that you'd recommend I talk to?" A warm referral is the fastest path to interview #21. People who share your pain know others who share their pain. Alex got 8 of her 20 interviews this way.</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- STORY SCENE 3: Patterns Emerge -->
+  <section class="story-scene">
+    <div class="container">
+      <div class="story-prose">
+        <span class="story-date">November 21st, Alex's Living Room, Sunday</span>
+        <p>Fifteen interviews done. Alex bought a pack of index cards from a nearby pharmacy and wrote one insight per card. She covered her kitchen table completely, then moved to the floor. 47 cards. She put on a playlist she used for coding and started grouping them intuitively.</p>
+        <p>Three clusters emerged immediately: "lost time reconnecting context" (11 cards), "too many tools, no single source of truth" (9 cards), "citation chaos during writing" (8 cards). A smaller cluster of 5 cards said some version of "actually pretty happy with Zotero," an important signal that not everyone felt the pain equally.</p>
+        <p>She stepped back, took a photo, and looked at it. The dominant cluster was unmistakable. People weren't losing time because they had too many papers. They were losing time because <em>their context didn't persist</em>, the understanding they'd built about a paper evaporated between sessions, and they had to rebuild it from scratch.</p>
+        <p>That was the job. Not "paper organization." <em>Context restoration.</em> She rewrote her problem hypothesis on a new card, pinned it above her desk, and called her mentor. "I finally know what I'm actually building."</p>
+        <div class="story-quote">
+          "15 interviews later, the product I thought I was building looked nothing like the product I needed to build."
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONCEPT BLOCK: Early Adopter Criteria -->
+  <section class="section-sm" style="background: var(--color-bg);">
+    <div class="container prose">
+      <div class="concept-block ch2">
+        <span class="concept-icon">🎯</span>
+        <h3 class="concept-title">Who Are Early Adopters?</h3>
+        <div class="concept-body">
+          <p>Not all customers are equal. Early adopters are the narrow group most likely to try a new, imperfect product, give honest feedback, and tell others about it. They're not your average customer. They're your best customers, found early.</p>
+          <p>The five criteria for identifying true early adopters:</p>
+          <ul>
+            <li><strong>Has the problem acutely and urgently.</strong> Not just occasionally annoyed, but genuinely blocked. The problem disrupts their work weekly or daily.</li>
+            <li><strong>Has tried to solve it before.</strong> Workarounds exist: spreadsheets, custom scripts, elaborate folder systems, duct-tape solutions. Workarounds = strong signal.</li>
+            <li><strong>Has budget authority or access to it.</strong> Can make or directly influence purchase decisions. Students need low prices; researchers at funded labs may have more budget.</li>
+            <li><strong>Is reachable.</strong> You can find them and get their attention through specific communities, platforms, or networks.</li>
+            <li><strong>Will give honest feedback.</strong> Not just validate you to be polite. Early adopters tend to be opinionated about this domain.</li>
+          </ul>
+          <div style="margin-top: 20px; padding: 16px 20px; background: var(--color-surface-2); border-radius: var(--radius); font-size: 0.875rem; border: 1px solid var(--color-border);">
+            <strong>Alex's early adopter profile:</strong> "STEM PhD students in their 2nd–4th year, writing their first major literature review, at a research-focused university, active on academic Twitter, not satisfied with Zotero's limitations."
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FRAMEWORK CARD: JTBD Switch Moment -->
+  <section class="section-sm" style="background: var(--color-surface-2);">
+    <div class="container prose">
+      <div class="framework-card">
+        <span class="framework-label">Framework · Jobs-to-Be-Done</span>
+        <h3 class="framework-title">The Jobs-to-Be-Done Switch Moment</h3>
+        <p style="color: var(--color-text-muted); margin-bottom: 28px; font-size: 0.9rem;">The JTBD "switch interview" focuses on a specific moment: when someone last changed how they solved a problem. That moment reveals the emotional triggers, context, and switching costs you'll need to understand and overcome.</p>
+
+        <div class="jtbd-grid">
+          <div class="jtbd-card">
+            <p class="jtbd-question">"When did you first realize you needed a new solution?"</p>
+            <span class="jtbd-why-label">Why it matters</span>
+            <p class="jtbd-why">Identifies the triggering event and the emotional context that drives change. The trigger is usually a moment of failure or frustration, the thing that finally broke the camel's back.</p>
+          </div>
+          <div class="jtbd-card">
+            <p class="jtbd-question">"What were you doing right before you decided to search for something new?"</p>
+            <span class="jtbd-why-label">Why it matters</span>
+            <p class="jtbd-why">Reveals the specific situation, not a general attitude. Context gives you the precise moment to target with messaging. "When you've just lost 3 hours re-reading a paper" is more powerful than "when you're frustrated."</p>
+          </div>
+          <div class="jtbd-card">
+            <p class="jtbd-question">"What almost stopped you from making a change?"</p>
+            <span class="jtbd-why-label">Why it matters</span>
+            <p class="jtbd-why">Uncovers the anxieties and switching costs you'll need to overcome. These are the objections that live in your customers' heads before they even talk to you. Address them proactively in your messaging.</p>
+          </div>
+        </div>
+
+        <div style="margin-top: 20px; padding: 16px 20px; background: white; border-radius: var(--radius); font-size: 0.875rem; border: 1px solid var(--color-border);">
+          <strong>Marcus's switch moment:</strong> "I missed a key contradictory paper in my lit review and had to redo 3 days of work. That was it. That was the moment I started looking for something different."
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOUNDER'S EXERCISE -->
+  <section class="section-sm" style="background: var(--color-bg);">
+    <div class="container prose">
+      <div class="exercise-box">
+        <div class="exercise-header">
+          <span class="exercise-icon">✏️</span>
+          <div class="exercise-header-text">
+            <h3 class="exercise-title">Profile Your Early Adopter</h3>
+            <p class="exercise-subtitle">Be ruthlessly specific. "Small businesses" is not a profile. "Ops managers at 10–50 person SaaS companies who manually create weekly reports in Google Sheets" is a profile. Use the checklist below.</p>
+          </div>
+        </div>
+
+        <ul class="checklist">
+          <li class="checklist-item">
+            <input type="checkbox" id="c1">
+            <label for="c1">My early adopter has the problem <strong>acutely</strong>, disrupting their work at least weekly, not occasionally.</label>
+          </li>
+          <li class="checklist-item">
+            <input type="checkbox" id="c2">
+            <label for="c2">They have <strong>tried to solve it before</strong>, and a workaround exists (spreadsheet, manual ritual, custom tool).</label>
+          </li>
+          <li class="checklist-item">
+            <input type="checkbox" id="c3">
+            <label for="c3">They have or can access <strong>budget</strong>, and could pay $___/month without needing 3 levels of approval.</label>
+          </li>
+          <li class="checklist-item">
+            <input type="checkbox" id="c4">
+            <label for="c4">I can <strong>reach them</strong>, in a community, platform, or network I can access today.</label>
+          </li>
+          <li class="checklist-item">
+            <input type="checkbox" id="c5">
+            <label for="c5">They will give <strong>honest feedback</strong>, not just supportive encouragement from friends or family.</label>
+          </li>
+          <li class="checklist-item">
+            <input type="checkbox" id="c6">
+            <label for="c6">I can describe them in <strong>one specific sentence</strong> without using the word "everyone."</label>
+          </li>
+        </ul>
+
+        <div class="form-group">
+          <label class="form-label">Your early adopter profile in one sentence:</label>
+          <span class="form-hint">Don't use "people who..." Be specific about role, context, and pain intensity.</span>
+          <textarea class="form-input form-textarea" placeholder="e.g., 2nd–4th year PhD students in STEM programs writing their first major literature review, who use Zotero but feel something important is missing in how it handles context and connections between papers."></textarea>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- KEY TAKEAWAYS -->
+  <section class="section-sm" style="background: var(--color-surface-2);">
+    <div class="container prose">
+      <div class="takeaways-box ch2">
+        <h3 class="takeaways-title">Chapter 2 Takeaways</h3>
+        <div class="takeaway-item">
+          <span class="takeaway-num">1</span>
+          <p class="takeaway-text"><strong>Get out of the building.</strong> No amount of desk research replaces 20 direct conversations with people in your target segment. The answers live in their workflows, not your spreadsheet. Schedule one interview today.</p>
+        </div>
+        <div class="takeaway-item">
+          <span class="takeaway-num">2</span>
+          <p class="takeaway-text"><strong>Listen for workarounds.</strong> When someone builds a workaround, such as a spreadsheet, a naming convention ritual, or a custom script, they're investing their own time to solve the problem. That's one of the strongest validation signals you can find.</p>
+        </div>
+        <div class="takeaway-item">
+          <span class="takeaway-num">3</span>
+          <p class="takeaway-text"><strong>Affinity mapping reveals truth.</strong> After 15+ interviews, write insights on cards and cluster them. The biggest cluster is your product's core job. Trust the data over your instincts. The market is smarter than any hypothesis.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CHAPTER NAVIGATION -->
+  <section class="section-sm">
+    <div class="container prose">
+      <div class="chapter-nav">
+        <a href="chapter-1.html" class="chapter-prev">
+          <span class="chapter-nav-label">Chapter 01</span>
+          <span class="chapter-nav-title">← The Problem Hunch</span>
+        </a>
+        <a href="chapter-3.html" class="chapter-next">
+          <span class="chapter-nav-label">Chapter 03</span>
+          <span class="chapter-nav-title">The Business Blueprint →</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-inner">
+        <div>
+          <a href="index.html" class="footer-logo">The Founder's Journey</a>
+          <p class="footer-tagline">Entrepreneurship education through digital storytelling.</p>
+        </div>
+        <div class="footer-links">
+          <a href="chapter-1.html" class="footer-link">Ch.1 — Problem</a>
+          <a href="chapter-2.html" class="footer-link">Ch.2 — Discovery</a>
+          <a href="chapter-3.html" class="footer-link">Ch.3 — Model</a>
+          <a href="chapter-4.html" class="footer-link">Ch.4 — Launch</a>
+        </div>
+      </div>
+      <p class="footer-attribution">Built from synthesized research on customer discovery, qualitative interviewing techniques, and early-stage customer development practices used across leading accelerators and startup programs.</p>
+    </div>
+  </footer>
+
+  <script src="js/app.js"></script>
+</body>
+</html>
