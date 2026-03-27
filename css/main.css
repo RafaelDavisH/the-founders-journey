@@ -412,7 +412,7 @@ ul,ol { padding-left: 1.5em; }
   font-size: 0.833rem; display: flex; align-items: center;
   border-right: 1px solid var(--color-border); font-family: var(--font-mono);
 }
-.icp-value { padding: 13px 18px; font-size: 0.833rem; color: var(--color-text-muted); display: flex; align-items: center; line-height: 1.5; }
+.icp-value { padding: 13px 18px; font-size: 0.833rem; color: var(--color-text-subtle); display: flex; align-items: center; line-height: 1.5; }
 
 /* === FOUNDER'S EXERCISE === */
 .exercise-box {
@@ -547,7 +547,7 @@ ul,ol { padding-left: 1.5em; }
 .badge-blue   { background: rgba(153,201,255,0.15); color: var(--chapter-2); }
 .badge-purple { background: rgba(219,184,255,0.15); color: var(--chapter-3); }
 .badge-orange { background: rgba(241,190,50,0.15);  color: var(--chapter-4); }
-.badge-neutral { background: var(--color-surface-2); color: var(--color-text-muted); border: 1px solid var(--color-border); }
+.badge-neutral { background: var(--color-surface-2); color: var(--color-text-subtle); border: 1px solid var(--color-border); }
 
 /* === BUTTONS === */
 .btn {
@@ -585,7 +585,7 @@ ul,ol { padding-left: 1.5em; }
 }
 .concept-table td {
   padding: 11px 16px; border-bottom: 1px solid var(--color-border);
-  color: var(--color-text-muted); vertical-align: top; line-height: 1.6;
+  color: var(--color-text-subtle); vertical-align: top; line-height: 1.6;
 }
 .concept-table tr:last-child td { border-bottom: none; }
 .concept-table tr:hover td { background: var(--color-surface-2); }
@@ -603,15 +603,15 @@ ul,ol { padding-left: 1.5em; }
 }
 .alex-name    { font-family: var(--font-display); font-size: 1.333rem; margin-bottom: 6px; }
 .alex-role    { margin-bottom: 16px; }
-.alex-bio     { font-size: 0.889rem; color: var(--color-text-muted); line-height: 1.7; margin-bottom: 16px; }
+.alex-bio     { font-size: 0.889rem; color: var(--color-text-subtle); line-height: 1.7; margin-bottom: 16px; }
 .alex-startup { padding: 14px 16px; background: var(--color-surface-2); border-radius: var(--radius); font-size: 0.833rem; border: 1px solid var(--color-border); }
-.alex-startup-label { font-family: var(--font-mono); font-size: 0.611rem; text-transform: uppercase; letter-spacing: 0.1em; color: var(--color-text-muted); display: block; margin-bottom: 4px; }
+.alex-startup-label { font-family: var(--font-mono); font-size: 0.611rem; text-transform: uppercase; letter-spacing: 0.1em; color: var(--color-text-subtle); display: block; margin-bottom: 4px; }
 
 /* Outcome Card */
 .outcome-card  { background: var(--color-surface); border-radius: var(--radius-lg); padding: 28px; border: 1px solid var(--color-border); }
 .outcome-icon  { font-size: 1.75rem; display: block; margin-bottom: 12px; }
 .outcome-title { font-weight: 700; font-size: 1rem; margin-bottom: 8px; }
-.outcome-desc  { font-size: 0.833rem; color: var(--color-text-muted); line-height: 1.6; }
+.outcome-desc  { font-size: 0.833rem; color: var(--color-text-subtle); line-height: 1.6; }
 
 /* Signals List */
 .signals-list { display: flex; flex-direction: column; gap: 12px; margin: 20px 0; }
@@ -619,14 +619,14 @@ ul,ol { padding-left: 1.5em; }
 .signal-check { width: 24px; height: 24px; border-radius: 50%; background: rgba(172,209,87,0.1); color: var(--color-primary); display: flex; align-items: center; justify-content: center; font-size: 0.833rem; flex-shrink: 0; margin-top: 1px; }
 .signal-check.hit { background: var(--color-primary); color: var(--gray-90); }
 .signal-title { font-weight: 600; font-size: 0.889rem; margin-bottom: 3px; }
-.signal-note  { font-size: 0.778rem; color: var(--color-text-muted); font-style: italic; }
+.signal-note  { font-size: 0.778rem; color: var(--color-text-subtle); font-style: italic; }
 
 /* Unit Economics */
 .unit-econ-grid { display: grid; grid-template-columns: repeat(3,1fr); gap: 16px; margin: 24px 0; }
 .unit-econ-card  { background: var(--color-surface); border-radius: var(--radius); padding: 20px; border: 1px solid var(--color-border); text-align: center; }
-.unit-econ-label { font-family: var(--font-mono); font-size: 0.611rem; text-transform: uppercase; letter-spacing: 0.1em; color: var(--color-text-muted); display: block; margin-bottom: 8px; }
+.unit-econ-label { font-family: var(--font-mono); font-size: 0.611rem; text-transform: uppercase; letter-spacing: 0.1em; color: var(--color-text-subtle); display: block; margin-bottom: 8px; }
 .unit-econ-value { font-family: var(--font-display); font-size: 2rem; font-weight: 700; color: var(--color-primary); display: block; margin-bottom: 4px; }
-.unit-econ-desc  { font-size: 0.722rem; color: var(--color-text-muted); }
+.unit-econ-desc  { font-size: 0.722rem; color: var(--color-text-subtle); }
 .formula-block {
   background: var(--color-surface-2); color: var(--color-text); border-radius: var(--radius);
   padding: 18px 22px; font-family: var(--font-mono); font-size: 0.833rem; margin: 20px 0;
