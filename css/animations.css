@@ -98,7 +98,7 @@
   transition: background var(--transition), transform var(--transition),
               box-shadow var(--transition), border-color var(--transition), color var(--transition);
 }
-.btn:hover { box-shadow: 0 4px 12px rgba(0,0,0,0.12); }
+.btn:hover { box-shadow: 0 4px 12px rgba(0,0,0,0.4); }
 .btn:active { transform: scale(0.96) !important; }
 
 /* === CARD HOVER === */
